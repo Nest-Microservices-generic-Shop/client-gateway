@@ -16,3 +16,5 @@ steps:
         "push",
         "us-west4-docker.pkg.dev/store-microservices-438405/image-registry/client-gateway",
       ]
+options:
+  logging: CLOUD_LOGGING_ONLY
